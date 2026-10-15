@@ -1,0 +1,37 @@
+:root {
+  --aq-palette-background: #101110;
+  --aq-palette-surface: #1b1d1b;
+  --aq-palette-raised: #242720;
+  --aq-palette-border: #373b32;
+  --aq-palette-text: #f5f2e9;
+  --aq-palette-muted: #afb4a7;
+  --aq-palette-gold: #dfbc78;
+  --aq-palette-on-gold: #161710;
+  --aq-palette-success: #a6ccb0;
+  --aq-palette-error: #f0a5a5;
+  --aq-palette-sage: #a9bba4;
+  --aq-palette-clay: #c6a08a;
+  --aq-background: var(--aq-palette-background);
+  --aq-surface: var(--aq-palette-surface);
+  --aq-raised: var(--aq-palette-raised);
+  --aq-border: var(--aq-palette-border);
+  --aq-text: var(--aq-palette-text);
+  --aq-muted: var(--aq-palette-muted);
+  --aq-gold: var(--aq-palette-gold);
+  --aq-on-gold: var(--aq-palette-on-gold);
+  --aq-success: var(--aq-palette-success);
+  --aq-error: var(--aq-palette-error);
+  --aq-sage: var(--aq-palette-sage);
+  --aq-clay: var(--aq-palette-clay);
+  --aq-space-4: 4px;
+  --aq-space-8: 8px;
+  --aq-space-12: 12px;
+  --aq-space-16: 16px;
+  --aq-space-20: 20px;
+  --aq-space-24: 24px;
+  --aq-space-32: 32px;
+  --aq-radius-10: 10px;
+  --aq-radius-12: 12px;
+  --aq-radius-18: 18px;
+  --aq-radius-24: 24px;
+}

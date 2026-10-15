@@ -1,0 +1,1122 @@
+[
+  {
+    "width": 320,
+    "checks": [
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "music"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "library"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "instrumentals"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "beat-detail"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "studio"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "beat"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "analysis"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "analysis-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "permission"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "record"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "lyrics"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "teleprompter"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "clear-lyrics"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "recording"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "cancel-take"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "take"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "retake"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "upload"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "track-settings"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "process"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "tune"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mix"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "slicer"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "fit"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mix-confirm"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "processing"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "result"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "export"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "export-done"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "exit"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "samples"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-wait"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-results"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-detail"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-library"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-connect"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-connected"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-disconnect"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "swap-info"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "community"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "catalog-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "catalog-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-empty"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-quota"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mic-denied"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "no-mid"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "process-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "offline"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "upload-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "ai-unavailable"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "external-link"
+      }
+    ]
+  },
+  {
+    "width": 390,
+    "checks": [
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "music"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "library"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "instrumentals"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "beat-detail"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "studio"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "beat"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "analysis"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "analysis-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "permission"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "record"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "lyrics"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "teleprompter"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "clear-lyrics"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "recording"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "cancel-take"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "take"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "retake"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "upload"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "track-settings"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "process"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "tune"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mix"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "slicer"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "fit"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mix-confirm"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "processing"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "result"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "export"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "export-done"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "exit"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "samples"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-wait"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-results"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-detail"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-library"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-connect"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-connected"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-disconnect"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "swap-info"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "community"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "catalog-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "catalog-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-empty"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-quota"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mic-denied"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "no-mid"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "process-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "offline"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "upload-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "ai-unavailable"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "external-link"
+      }
+    ]
+  },
+  {
+    "width": 430,
+    "checks": [
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "music"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "library"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "instrumentals"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "beat-detail"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "studio"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "beat"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "analysis"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "analysis-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "permission"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "record"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "lyrics"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "teleprompter"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "clear-lyrics"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "recording"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "cancel-take"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "take"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "retake"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "upload"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "track-settings"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "process"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "tune"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mix"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "slicer"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "fit"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mix-confirm"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "processing"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "result"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "export"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "export-done"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "exit"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "samples"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-wait"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-results"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-detail"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-library"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-connect"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-connected"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-disconnect"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "swap-info"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "community"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "catalog-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "catalog-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-empty"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-quota"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mic-denied"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "no-mid"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "process-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "offline"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "upload-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "ai-unavailable"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "external-link"
+      }
+    ]
+  },
+  {
+    "width": 1280,
+    "checks": [
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "music"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "library"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "instrumentals"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "beat-detail"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "studio"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "beat"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "analysis"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "analysis-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "permission"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "record"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "lyrics"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "teleprompter"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "clear-lyrics"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "recording"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "cancel-take"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "take"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "retake"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "upload"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "track-settings"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "process"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "tune"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mix"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "slicer"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "fit"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mix-confirm"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "processing"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "result"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "export"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "export-done"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "exit"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "samples"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-wait"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-results"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-detail"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-library"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-connect"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-connected"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "wallet-disconnect"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "swap-info"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "community"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "catalog-loading"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "catalog-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-empty"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "sample-quota"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "mic-denied"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "no-mid"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "process-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "offline"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "upload-error"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "ai-unavailable"
+      },
+      {
+        "clipped": [],
+        "overflow": false,
+        "screen": "external-link"
+      }
+    ]
+  }
+]
