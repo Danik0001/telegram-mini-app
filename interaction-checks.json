@@ -1,0 +1,54 @@
+[
+  {
+    "test": "MID required",
+    "passed": true
+  },
+  {
+    "test": "Take MID",
+    "passed": true
+  },
+  {
+    "test": "Take BACK",
+    "passed": true
+  },
+  {
+    "test": "Take ADLIBS",
+    "passed": true
+  },
+  {
+    "test": "MID allows processing",
+    "passed": true
+  },
+  {
+    "test": "BYPASS preserves FX choices",
+    "passed": true
+  },
+  {
+    "test": "Full demo mix to WAV state",
+    "passed": true
+  },
+  {
+    "test": "Samples prompt validation",
+    "passed": true
+  },
+  {
+    "test": "Three Samples variants",
+    "passed": true
+  },
+  {
+    "test": "Samples favourites",
+    "passed": true
+  },
+  {
+    "test": "TON demo connection",
+    "passed": true
+  },
+  {
+    "test": "TON demo disconnect",
+    "passed": true
+  },
+  {
+    "test": "Выход во время активной записи открывает предупреждение",
+    "passed": true
+  }
+]

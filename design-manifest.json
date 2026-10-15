@@ -1,0 +1,2043 @@
+{
+  "version": "2.0-mvp-aligned",
+  "date": "2026-10-15",
+  "source": "https://app.asiqpai.site/",
+  "figmaStatus": "v1-stale-quota-blocked",
+  "tokens": {
+    "background": "#101110",
+    "surface": "#1b1d1b",
+    "raised": "#242720",
+    "border": "#373b32",
+    "text": "#f5f2e9",
+    "muted": "#afb4a7",
+    "gold": "#dfbc78",
+    "on-gold": "#161710",
+    "success": "#a6ccb0",
+    "error": "#f0a5a5",
+    "sage": "#a9bba4",
+    "clay": "#c6a08a"
+  },
+  "tracks": [
+    "Демон",
+    "212",
+    "Дрим Трап",
+    "Контроль",
+    "Barys",
+    "Тёмный лорд",
+    "Эфир и ум",
+    "Baby"
+  ],
+  "keys": [
+    "C",
+    "C♯",
+    "D",
+    "D♯",
+    "E",
+    "F",
+    "F♯",
+    "G",
+    "G♯",
+    "A",
+    "A♯",
+    "B"
+  ],
+  "presets": [
+    "MID · CLEAN",
+    "MID · PREMIUM",
+    "MID · DARK",
+    "BACK · WIDE",
+    "ADLIBS · SPACE"
+  ],
+  "screens": [
+    {
+      "id": "music",
+      "name": "01 / Music — плеер",
+      "title": "Твой звук.\nТвой момент.",
+      "sub": "ASIQPAI / Music",
+      "items": [
+        {
+          "type": "player",
+          "title": "Әңгіме",
+          "artist": "ASIQPAI · INSTRUMENTAL",
+          "duration": "1:18"
+        },
+        {
+          "type": "button",
+          "label": "Открыть медиатеку",
+          "to": "library",
+          "style": "secondary"
+        },
+        {
+          "type": "card",
+          "title": "AI Studio",
+          "meta": "Создай мелодию или запиши вокал",
+          "to": "studio",
+          "art": "sage"
+        }
+      ],
+      "nav": "Music"
+    },
+    {
+      "id": "library",
+      "name": "02 / Library — Tracks",
+      "title": "Музыка рядом",
+      "sub": "Каталог треков и инструменталов.",
+      "items": [
+        {
+          "type": "tabs",
+          "values": [
+            "Tracks",
+            "Instrumentals"
+          ],
+          "selected": 0
+        },
+        {
+          "type": "field",
+          "label": "Поиск по медиатеке",
+          "value": "",
+          "kind": "search"
+        },
+        {
+          "type": "card",
+          "title": "Демон",
+          "meta": "ASIQPAI · TRACK",
+          "to": "@select-track:Демон",
+          "art": "gold"
+        },
+        {
+          "type": "card",
+          "title": "212",
+          "meta": "ASIQPAI · TRACK",
+          "to": "@select-track:212",
+          "art": "sage"
+        },
+        {
+          "type": "card",
+          "title": "Дрим Трап",
+          "meta": "ASIQPAI · TRACK",
+          "to": "@select-track:Дрим Трап",
+          "art": "gold"
+        },
+        {
+          "type": "card",
+          "title": "Контроль",
+          "meta": "ASIQPAI · TRACK",
+          "to": "@select-track:Контроль",
+          "art": "sage"
+        },
+        {
+          "type": "card",
+          "title": "Barys",
+          "meta": "ASIQPAI · TRACK",
+          "to": "@select-track:Barys",
+          "art": "gold"
+        },
+        {
+          "type": "card",
+          "title": "Тёмный лорд",
+          "meta": "ASIQPAI · TRACK",
+          "to": "@select-track:Тёмный лорд",
+          "art": "sage"
+        },
+        {
+          "type": "card",
+          "title": "Эфир и ум",
+          "meta": "Gromann · TRACK",
+          "to": "@select-track:Эфир и ум",
+          "art": "gold"
+        },
+        {
+          "type": "card",
+          "title": "Baby",
+          "meta": "ASIQPAI · TRACK",
+          "to": "@select-track:Baby",
+          "art": "sage"
+        }
+      ],
+      "nav": "Library"
+    },
+    {
+      "id": "instrumentals",
+      "name": "03 / Library — Instrumentals",
+      "title": "Основа твоего трека",
+      "sub": "Инструменталы ASIQPAI.",
+      "items": [
+        {
+          "type": "tabs",
+          "values": [
+            "Tracks",
+            "Instrumentals"
+          ],
+          "selected": 1
+        },
+        {
+          "type": "field",
+          "label": "Поиск по медиатеке",
+          "value": "",
+          "kind": "search"
+        },
+        {
+          "type": "card",
+          "title": "Әңгіме",
+          "meta": "ASIQPAI · INSTRUMENTAL · 1:18",
+          "to": "beat-detail",
+          "art": "gold"
+        },
+        {
+          "type": "notice",
+          "title": "Каталог в прототипе",
+          "text": "Названия и количество остальных инструменталов должны приходить из актуального каталога. Здесь показан подтверждённый пример.",
+          "status": "info"
+        }
+      ],
+      "nav": "Library"
+    },
+    {
+      "id": "beat-detail",
+      "name": "04 / Инструментал",
+      "title": "Әңгіме",
+      "sub": "ASIQPAI / Instrumental",
+      "items": [
+        {
+          "type": "art",
+          "art": "gold"
+        },
+        {
+          "type": "wave"
+        },
+        {
+          "type": "button",
+          "label": "Прослушать превью",
+          "to": "@play",
+          "style": "secondary"
+        },
+        {
+          "type": "notice",
+          "title": "Использование бита",
+          "text": "Экспорт демо не означает покупку лицензии на бит. Условия коммерческого использования уточняются отдельно.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Открыть в Vocal AI",
+          "to": "beat",
+          "style": "primary"
+        }
+      ],
+      "nav": "Library"
+    },
+    {
+      "id": "studio",
+      "name": "05 / AI Studio — инструменты",
+      "title": "Из идеи\nв звучание",
+      "sub": "AI-инструменты для музыкантов и артистов.",
+      "items": [
+        {
+          "type": "pill",
+          "text": "ASIQPAI AI / BETA"
+        },
+        {
+          "type": "card",
+          "title": "Vocal AI",
+          "meta": "Запись под бит · AI CLEAN · TUNE · FX · WAV",
+          "to": "beat",
+          "art": "gold"
+        },
+        {
+          "type": "card",
+          "title": "AI Samples",
+          "meta": "Мелодические лупы · BPM · KEY · 4/8 bars",
+          "to": "samples",
+          "art": "sage"
+        },
+        {
+          "type": "notice",
+          "title": "Начни с главного",
+          "text": "Есть голос и бит — открой Vocal AI. Нужна мелодия — начни с AI Samples.",
+          "status": "info"
+        },
+        {
+          "type": "body",
+          "text": "Другие инструменты, включая mastering и Stem AI, пока остаются направлением развития."
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "beat",
+      "name": "06 / Vocal AI — выбор бита",
+      "title": "Начни с бита",
+      "sub": "Шаг 1 из 4 / Подготовка",
+      "items": [
+        {
+          "type": "steps",
+          "step": 1
+        },
+        {
+          "type": "card",
+          "title": "Әңгіме",
+          "meta": "Подтверждённый пример инструментала",
+          "to": "beat-detail",
+          "art": "gold"
+        },
+        {
+          "type": "button",
+          "label": "Выбрать из каталога",
+          "to": "instrumentals",
+          "style": "secondary"
+        },
+        {
+          "type": "analysis"
+        },
+        {
+          "type": "button",
+          "label": "Настроить анализ вручную",
+          "to": "analysis",
+          "style": "ghost"
+        },
+        {
+          "type": "notice",
+          "title": "Демо и лицензия",
+          "text": "Экспорт микса не означает покупку лицензии на бит.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "К записи голоса",
+          "to": "permission",
+          "style": "primary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "analysis",
+      "name": "07 / Анализ бита",
+      "title": "Ритм и тональность",
+      "sub": "Автоматический анализ на устройстве.",
+      "items": [
+        {
+          "type": "analysis"
+        },
+        {
+          "type": "notice",
+          "title": "Если результат неуверенный",
+          "text": "Переключи TUNE в MANUAL и укажи тональность. Значения ниже — демонстрация интерфейса.",
+          "status": "info"
+        },
+        {
+          "type": "field",
+          "label": "BPM",
+          "value": "122",
+          "kind": "number",
+          "options": null,
+          "min": 40,
+          "max": 240
+        },
+        {
+          "type": "field",
+          "label": "Тональность",
+          "value": "A",
+          "kind": "select",
+          "options": [
+            "C",
+            "C♯",
+            "D",
+            "D♯",
+            "E",
+            "F",
+            "F♯",
+            "G",
+            "G♯",
+            "A",
+            "A♯",
+            "B"
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Лад",
+          "value": "Minor",
+          "kind": "select",
+          "options": [
+            "Minor",
+            "Major"
+          ]
+        },
+        {
+          "type": "button",
+          "label": "Применить к проекту",
+          "to": "@analysis",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Повторить анализ",
+          "to": "analysis-loading",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "analysis-loading",
+      "name": "08 / Анализ — ожидание",
+      "title": "Слушаем ритм",
+      "sub": "Определение BPM и тональности.",
+      "items": [
+        {
+          "type": "wave"
+        },
+        {
+          "type": "notice",
+          "title": "Анализ на устройстве",
+          "text": "Не показываем выдуманный процент. По завершении появятся BPM, KEY, SCALE и CONFIDENCE.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Показать деморезультат",
+          "to": "analysis",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Указать вручную",
+          "to": "analysis",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "permission",
+      "name": "09 / Доступ микрофона",
+      "title": "Дай голос\nсвоей идее",
+      "sub": "Микрофон нужен только для записи.",
+      "items": [
+        {
+          "type": "wave"
+        },
+        {
+          "type": "notice",
+          "title": "Используй наушники",
+          "text": "Так инструментал не попадёт в вокальную дорожку.",
+          "status": "info"
+        },
+        {
+          "type": "notice",
+          "title": "На iPhone",
+          "text": "Не сворачивай Telegram во время записи. Текст можно открыть в телесуфлёре.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Перейти к демозаписи",
+          "to": "record",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Загрузить вокал",
+          "to": "upload",
+          "style": "secondary"
+        },
+        {
+          "type": "body",
+          "text": "Прототип не запрашивает доступ к настоящему микрофону."
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "record",
+      "name": "10 / Vocal AI — дорожки",
+      "title": "Твой голос\nв центре",
+      "sub": "Шаг 2 из 4 / До 3 минут на дубль",
+      "items": [
+        {
+          "type": "steps",
+          "step": 2
+        },
+        {
+          "type": "rack"
+        },
+        {
+          "type": "button",
+          "label": "Записать выбранную дорожку",
+          "to": "recording",
+          "style": "record"
+        },
+        {
+          "type": "button",
+          "label": "Добавить вокальный файл",
+          "to": "upload",
+          "style": "secondary"
+        },
+        {
+          "type": "card",
+          "title": "Текст и телесуфлёр",
+          "meta": "Читай свой текст, оставаясь в Telegram",
+          "to": "lyrics",
+          "art": "sage"
+        },
+        {
+          "type": "button",
+          "label": "Настройки дорожки",
+          "to": "track-settings",
+          "style": "ghost"
+        },
+        {
+          "type": "button",
+          "label": "К обработке",
+          "to": "@to-process",
+          "style": "primary"
+        },
+        {
+          "type": "notice",
+          "title": "До закрытия сохрани WAV",
+          "text": "Текущий MVP не сохраняет проект и запись между запусками.",
+          "status": "info"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "lyrics",
+      "name": "11 / Текст и телесуфлёр",
+      "title": "Слова перед глазами",
+      "sub": "Текст остаётся в этой сессии.",
+      "items": [
+        {
+          "type": "field",
+          "label": "Текст / телесуфлёр",
+          "value": "",
+          "kind": "textarea",
+          "options": null,
+          "placeholder": "Вставь текст куплета…"
+        },
+        {
+          "type": "button",
+          "label": "Открыть крупно",
+          "to": "teleprompter",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Очистить текст",
+          "to": "clear-lyrics",
+          "style": "ghost"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к дорожкам",
+          "to": "record",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "teleprompter",
+      "name": "12 / Телесуфлёр",
+      "title": "Держи свой ритм",
+      "sub": "Крупный текст во время записи.",
+      "items": [
+        {
+          "type": "teleprompter"
+        },
+        {
+          "type": "field",
+          "label": "Размер текста",
+          "value": "26",
+          "kind": "range",
+          "options": null,
+          "min": 20,
+          "max": 40,
+          "unit": "px"
+        },
+        {
+          "type": "button",
+          "label": "Начать демозапись с текстом",
+          "to": "recording",
+          "style": "record"
+        },
+        {
+          "type": "button",
+          "label": "Редактировать текст",
+          "to": "lyrics",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "clear-lyrics",
+      "name": "13 / Очистить текст",
+      "title": "Удалить текст?",
+      "sub": "Текущий текст куплета будет очищен.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Подтверждение",
+          "text": "Это не удаляет вокальные дорожки.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Очистить текст",
+          "to": "@clear-lyrics",
+          "style": "danger"
+        },
+        {
+          "type": "button",
+          "label": "Оставить текст",
+          "to": "lyrics",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "recording",
+      "name": "14 / Запись активна",
+      "title": "Дубль идёт",
+      "sub": "Демонстрация записи выбранной дорожки.",
+      "items": [
+        {
+          "type": "pill",
+          "text": "REC / ДО 03:00"
+        },
+        {
+          "type": "timer"
+        },
+        {
+          "type": "wave"
+        },
+        {
+          "type": "teleprompter"
+        },
+        {
+          "type": "button",
+          "label": "Остановить запись",
+          "to": "take",
+          "style": "record"
+        },
+        {
+          "type": "button",
+          "label": "Отменить дубль",
+          "to": "cancel-take",
+          "style": "ghost"
+        },
+        {
+          "type": "notice",
+          "title": "Останься в Telegram",
+          "text": "На iPhone сворачивание приложения может остановить микрофон.",
+          "status": "info"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "cancel-take",
+      "name": "15 / Отмена дубля",
+      "title": "Отменить этот дубль?",
+      "sub": "Предыдущий сохранённый дубль останется.",
+      "items": [
+        {
+          "type": "button",
+          "label": "Отменить новый дубль",
+          "to": "record",
+          "style": "danger"
+        },
+        {
+          "type": "button",
+          "label": "Продолжить демозапись",
+          "to": "recording",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "take",
+      "name": "16 / Предпрослушивание дубля",
+      "title": "Услышь свой голос",
+      "sub": "Предпрослушивание выбранной дорожки.",
+      "items": [
+        {
+          "type": "wave"
+        },
+        {
+          "type": "button",
+          "label": "Прослушать дубль",
+          "to": "@play",
+          "style": "secondary"
+        },
+        {
+          "type": "button",
+          "label": "Использовать дубль",
+          "to": "@keep-take",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Записать ещё раз",
+          "to": "retake",
+          "style": "ghost"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "retake",
+      "name": "17 / Перезапись",
+      "title": "Ещё один дубль?",
+      "sub": "Заменится только выбранная дорожка.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Сохранность дубля",
+          "text": "Старый дубль остаётся до подтверждения нового. Другие дорожки не меняются.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Начать новый дубль",
+          "to": "recording",
+          "style": "record"
+        },
+        {
+          "type": "button",
+          "label": "Оставить текущий",
+          "to": "record",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "upload",
+      "name": "18 / Загрузка вокала",
+      "title": "Добавь свой вокал",
+      "sub": "Файл попадёт на выбранную дорожку.",
+      "items": [
+        {
+          "type": "upload"
+        },
+        {
+          "type": "notice",
+          "title": "Лимит MVP",
+          "text": "До 25 МБ. Поддерживаемые форматы согласуются с существующим декодером.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Добавить демофайл",
+          "to": "@upload-demo",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к записи",
+          "to": "record",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "track-settings",
+      "name": "19 / Настройки дорожки",
+      "title": "Настрой каждый слой",
+      "sub": "MID / BACK / ADLIBS отдельно.",
+      "items": [
+        {
+          "type": "track-select"
+        },
+        {
+          "type": "mixer"
+        },
+        {
+          "type": "notice",
+          "title": "Баланс по умолчанию",
+          "text": "MID остаётся в центре. BACK и ADLIBS могут быть шире.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к дорожкам",
+          "to": "record",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "process",
+      "name": "20 / Vocal AI — обработка",
+      "title": "Твой характер.\nТвой звук.",
+      "sub": "Шаг 3 из 4 / Настройки выбранной дорожки",
+      "items": [
+        {
+          "type": "steps",
+          "step": 3
+        },
+        {
+          "type": "track-select"
+        },
+        {
+          "type": "field",
+          "label": "Характер обработки",
+          "value": "MID · PREMIUM",
+          "kind": "select",
+          "options": [
+            "MID · CLEAN",
+            "MID · PREMIUM",
+            "MID · DARK",
+            "BACK · WIDE",
+            "ADLIBS · SPACE"
+          ]
+        },
+        {
+          "type": "ai-clean"
+        },
+        {
+          "type": "fx-rack"
+        },
+        {
+          "type": "card",
+          "title": "TUNE / тональность",
+          "meta": "AUTO/MANUAL · KEY · SCALE",
+          "to": "tune",
+          "art": "sage"
+        },
+        {
+          "type": "card",
+          "title": "Микшер и синхронизация",
+          "meta": "Громкость · PAN · WIDTH · offset",
+          "to": "mix",
+          "art": "clay"
+        },
+        {
+          "type": "card",
+          "title": "Vocal Slicer",
+          "meta": "Фрагмент дорожки · сценарий по ТЗ",
+          "to": "slicer",
+          "art": "sage"
+        },
+        {
+          "type": "card",
+          "title": "AI Fit",
+          "meta": "Выравнивание под бит · сценарий по ТЗ",
+          "to": "fit",
+          "art": "clay"
+        },
+        {
+          "type": "button",
+          "label": "Собрать полный микс",
+          "to": "@to-mix",
+          "style": "primary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "tune",
+      "name": "21 / TUNE",
+      "title": "В тональности трека",
+      "sub": "Настройки TUNE для выбранной дорожки.",
+      "items": [
+        {
+          "type": "track-select"
+        },
+        {
+          "type": "field",
+          "label": "Режим TUNE",
+          "value": "AUTO",
+          "kind": "select",
+          "options": [
+            "AUTO",
+            "MANUAL"
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Тональность",
+          "value": "A",
+          "kind": "select",
+          "options": [
+            "C",
+            "C♯",
+            "D",
+            "D♯",
+            "E",
+            "F",
+            "F♯",
+            "G",
+            "G♯",
+            "A",
+            "A♯",
+            "B"
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Лад",
+          "value": "Minor",
+          "kind": "select",
+          "options": [
+            "Minor",
+            "Major"
+          ]
+        },
+        {
+          "type": "notice",
+          "title": "При низкой уверенности анализа",
+          "text": "Используй MANUAL. AUTO опирается на результат анализа бита.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Применить TUNE",
+          "to": "@apply-tune",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к обработке",
+          "to": "process",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "mix",
+      "name": "22 / Микшер и синхронизация",
+      "title": "Собери баланс",
+      "sub": "Громкость, пространство и положение во времени.",
+      "items": [
+        {
+          "type": "track-select"
+        },
+        {
+          "type": "mixer"
+        },
+        {
+          "type": "field",
+          "label": "Громкость бита",
+          "value": "60",
+          "kind": "range",
+          "options": null,
+          "min": 0,
+          "max": 100,
+          "unit": "%"
+        },
+        {
+          "type": "field",
+          "label": "WIDTH / DOUBLE",
+          "value": "0",
+          "kind": "range",
+          "options": null,
+          "min": 0,
+          "max": 100,
+          "unit": "%"
+        },
+        {
+          "type": "field",
+          "label": "Сдвиг вокала, секунды",
+          "value": "0",
+          "kind": "number",
+          "options": null,
+          "min": -180,
+          "max": 180,
+          "step": 0.01
+        },
+        {
+          "type": "body",
+          "text": "Положительное значение сдвигает голос позже, отрицательное — раньше."
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к обработке",
+          "to": "process",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "slicer",
+      "name": "23 / Vocal Slicer",
+      "title": "Оставь нужный фрагмент",
+      "sub": "Проектируемый сценарий по ТЗ.",
+      "items": [
+        {
+          "type": "track-select"
+        },
+        {
+          "type": "wave"
+        },
+        {
+          "type": "field",
+          "label": "Начало, секунды",
+          "value": "0",
+          "kind": "number",
+          "options": null,
+          "min": 0,
+          "max": 12,
+          "step": 0.1
+        },
+        {
+          "type": "field",
+          "label": "Конец, секунды",
+          "value": "12",
+          "kind": "number",
+          "options": null,
+          "min": 0,
+          "max": 12,
+          "step": 0.1
+        },
+        {
+          "type": "button",
+          "label": "Прослушать фрагмент",
+          "to": "@play",
+          "style": "secondary"
+        },
+        {
+          "type": "notice",
+          "title": "Исходник остаётся",
+          "text": "Изменение применяется к рабочему фрагменту. Параметры инструмента нужно подтвердить с разработчиком.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Применить фрагмент",
+          "to": "@apply-slicer",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Отмена",
+          "to": "process",
+          "style": "ghost"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "fit",
+      "name": "24 / AI Fit",
+      "title": "В ритме бита",
+      "sub": "Проектируемый сценарий по ТЗ.",
+      "items": [
+        {
+          "type": "track-select"
+        },
+        {
+          "type": "card",
+          "title": "Әңгіме",
+          "meta": "Целевой инструментал",
+          "to": "beat-detail",
+          "art": "gold"
+        },
+        {
+          "type": "field",
+          "label": "Сила выравнивания",
+          "value": "40",
+          "kind": "range",
+          "options": null,
+          "min": 0,
+          "max": 100,
+          "unit": "%"
+        },
+        {
+          "type": "wave"
+        },
+        {
+          "type": "button",
+          "label": "Предпрослушать",
+          "to": "@play",
+          "style": "secondary"
+        },
+        {
+          "type": "button",
+          "label": "Применить выравнивание",
+          "to": "@apply-fit",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Отмена",
+          "to": "process",
+          "style": "ghost"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "mix-confirm",
+      "name": "25 / Подтверждение сборки",
+      "title": "Готов собрать демо?",
+      "sub": "Проверь дорожки и эффекты.",
+      "items": [
+        {
+          "type": "summary"
+        },
+        {
+          "type": "notice",
+          "title": "Сборка микса",
+          "text": "Для этого действия в осмотренном MVP не подтверждены тарифы или списание. В дизайне нет выдуманной цены.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Собрать демомикс",
+          "to": "processing",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к настройкам",
+          "to": "process",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "processing",
+      "name": "26 / Сборка микса",
+      "title": "Собираем твой звук",
+      "sub": "Дорожки и выбранные эффекты.",
+      "items": [
+        {
+          "type": "wave"
+        },
+        {
+          "type": "notice",
+          "title": "Обработка",
+          "text": "Показываем фактический этап, если он доступен. Демо завершается по кнопке.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Показать деморезультат",
+          "to": "result",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к настройкам",
+          "to": "process",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "result",
+      "name": "27 / Готовый микс",
+      "title": "Услышь результат",
+      "sub": "Шаг 4 из 4 / MID + BACK + ADLIBS",
+      "items": [
+        {
+          "type": "steps",
+          "step": 4
+        },
+        {
+          "type": "wave"
+        },
+        {
+          "type": "compare"
+        },
+        {
+          "type": "button",
+          "label": "Прослушать демопревью",
+          "to": "@play",
+          "style": "secondary"
+        },
+        {
+          "type": "button",
+          "label": "Экспорт WAV",
+          "to": "export",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к обработке",
+          "to": "process",
+          "style": "ghost"
+        },
+        {
+          "type": "notice",
+          "title": "Не закрывай до экспорта",
+          "text": "Проект и запись в текущем MVP не сохраняются между запусками.",
+          "status": "info"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "export",
+      "name": "28 / Экспорт WAV",
+      "title": "Сохрани свой звук",
+      "sub": "Экспорт готового демомикса.",
+      "items": [
+        {
+          "type": "row",
+          "left": "Формат",
+          "right": "WAV"
+        },
+        {
+          "type": "row",
+          "left": "Содержимое",
+          "right": "MID + BACK + ADLIBS + бит"
+        },
+        {
+          "type": "body",
+          "text": "Частота и разрядность должны соответствовать реальному экспорту MVP. Не предлагаем неподтверждённые варианты."
+        },
+        {
+          "type": "notice",
+          "title": "Лицензия на бит",
+          "text": "Скачивание WAV не означает покупку лицензии на инструментал.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Посмотреть состояние скачивания",
+          "to": "export-done",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Назад к миксу",
+          "to": "result",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "export-done",
+      "name": "29 / Экспорт — подтверждение",
+      "title": "WAV готов",
+      "sub": "Демонстрационное состояние экспорта.",
+      "items": [
+        {
+          "type": "pill",
+          "text": "WAV / EXPORT"
+        },
+        {
+          "type": "notice",
+          "title": "Файл в прототипе не создаётся",
+          "text": "В реальном приложении здесь скачивается настоящий микс. Не закрывай студию до получения файла.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к миксу",
+          "to": "result",
+          "style": "secondary"
+        },
+        {
+          "type": "button",
+          "label": "Завершить демосессию",
+          "to": "@finish",
+          "style": "primary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "exit",
+      "name": "30 / Выход из студии",
+      "title": "Перед выходом — WAV",
+      "sub": "В сессии есть вокальные дорожки.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Проект не сохранится между запусками",
+          "text": "Скачай готовое демо перед закрытием. Кнопка «Сохранить проект» не обещает функцию, которой пока нет.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к записи",
+          "to": "record",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Перейти к готовому миксу",
+          "to": "result",
+          "style": "secondary"
+        },
+        {
+          "type": "button",
+          "label": "Выйти без экспорта",
+          "to": "@leave",
+          "style": "danger"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "samples",
+      "name": "31 / AI Samples — параметры",
+      "title": "Новая мелодия.\nНовая идея.",
+      "sub": "Мелодический stem для работы в DAW.",
+      "items": [
+        {
+          "type": "pill",
+          "text": "AI SAMPLES / BETA"
+        },
+        {
+          "type": "row",
+          "left": "Осталось генераций",
+          "right": "—"
+        },
+        {
+          "type": "field",
+          "label": "Стиль",
+          "value": "Без уточнения",
+          "kind": "select",
+          "options": [
+            "Без уточнения",
+            "Hip-hop",
+            "Trap",
+            "Ambient"
+          ]
+        },
+        {
+          "type": "field",
+          "label": "BPM",
+          "value": "122",
+          "kind": "range",
+          "options": null,
+          "min": 70,
+          "max": 180,
+          "unit": "BPM"
+        },
+        {
+          "type": "field",
+          "label": "Тональность",
+          "value": "A minor",
+          "kind": "select",
+          "options": [
+            "C minor",
+            "C major",
+            "C♯ minor",
+            "C♯ major",
+            "D minor",
+            "D major",
+            "D♯ minor",
+            "D♯ major",
+            "E minor",
+            "E major",
+            "F minor",
+            "F major",
+            "F♯ minor",
+            "F♯ major",
+            "G minor",
+            "G major",
+            "G♯ minor",
+            "G♯ major",
+            "A minor",
+            "A major",
+            "A♯ minor",
+            "A♯ major",
+            "B minor",
+            "B major"
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Длина",
+          "value": "4 такта",
+          "kind": "select",
+          "options": [
+            "4 такта",
+            "8 тактов"
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Плотность",
+          "value": "Minimal",
+          "kind": "select",
+          "options": [
+            "Minimal",
+            "Dense"
+          ]
+        },
+        {
+          "type": "field",
+          "label": "Что хотите услышать?",
+          "value": "",
+          "kind": "textarea",
+          "options": null,
+          "placeholder": "Например: solo piano, тёмная мелодия…"
+        },
+        {
+          "type": "field",
+          "label": "Количество вариантов",
+          "value": "1 вариант",
+          "kind": "select",
+          "options": [
+            "1 вариант",
+            "3 варианта"
+          ]
+        },
+        {
+          "type": "button",
+          "label": "Создать демосэмпл",
+          "to": "@generate-samples",
+          "style": "primary"
+        },
+        {
+          "type": "notice",
+          "title": "Чистый мелодический stem",
+          "text": "Если нужен один инструмент, укажи его в описании. Квота и доступность приходят из сервиса.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Библиотека сэмплов",
+          "to": "sample-library",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "sample-wait",
+      "name": "32 / Samples — генерация",
+      "title": "Создаём мелодию",
+      "sub": "Описание и параметры остаются в сессии.",
+      "items": [
+        {
+          "type": "wave"
+        },
+        {
+          "type": "notice",
+          "title": "Генерация",
+          "text": "Демонстрация состояния ожидания. Настоящий AI-запрос не запускается.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Показать варианты",
+          "to": "sample-results",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к описанию",
+          "to": "samples",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "sample-results",
+      "name": "33 / Samples — варианты",
+      "title": "Новые направления",
+      "sub": "Выбери вариант для дальнейшей работы.",
+      "items": [
+        {
+          "type": "sample-results"
+        },
+        {
+          "type": "button",
+          "label": "Изменить параметры",
+          "to": "samples",
+          "style": "secondary"
+        },
+        {
+          "type": "button",
+          "label": "Библиотека сэмплов",
+          "to": "sample-library",
+          "style": "ghost"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "sample-detail",
+      "name": "34 / Samples — детали",
+      "title": "Melodic stem / 01",
+      "sub": "WAV / AI sample",
+      "items": [
+        {
+          "type": "art",
+          "art": "sage"
+        },
+        {
+          "type": "wave"
+        },
+        {
+          "type": "button",
+          "label": "Прослушать демопревью",
+          "to": "@play",
+          "style": "secondary"
+        },
+        {
+          "type": "button",
+          "label": "Добавить в избранное",
+          "to": "@sample-favourite",
+          "style": "secondary"
+        },
+        {
+          "type": "button",
+          "label": "Скачать WAV",
+          "to": "@sample-download",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Назад к вариантам",
+          "to": "sample-results",
+          "style": "ghost"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "sample-library",
+      "name": "35 / Samples — Library",
+      "title": "Твои сэмплы",
+      "sub": "Библиотека внутри AI Samples.",
+      "items": [
+        {
+          "type": "tabs",
+          "values": [
+            "Все",
+            "Избранное"
+          ],
+          "selected": 0
+        },
+        {
+          "type": "sample-library"
+        },
+        {
+          "type": "button",
+          "label": "Создать мелодию",
+          "to": "samples",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "wallet",
+      "name": "36 / Wallet — не подключён",
+      "title": "Твой ASIQ\nв одном месте",
+      "sub": "TON Network / Digital Wallet",
+      "items": [
+        {
+          "type": "pill",
+          "text": "ASIQPAI DIGITAL WALLET"
+        },
+        {
+          "type": "wallet",
+          "status": "disconnected"
+        },
+        {
+          "type": "button",
+          "label": "Connect Wallet — демо",
+          "to": "wallet-connect",
+          "style": "primary"
+        },
+        {
+          "type": "notice",
+          "title": "Твой TON-кошелёк",
+          "text": "Подключение и баланс ASIQ заменяют неподтверждённые пакеты кредитов.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Обмен ASIQ / информация",
+          "to": "swap-info",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Wallet"
+    },
+    {
+      "id": "wallet-connect",
+      "name": "37 / Wallet — подключение",
+      "title": "Подключить кошелёк",
+      "sub": "Демонстрация TON Connect.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Подключение через TON Connect",
+          "text": "В реальном продукте откроется выбор кошелька и подтверждение подключения. Приватный ключ не вводится в Mini App.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Показать подключённое состояние",
+          "to": "@wallet-connect",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Отменить",
+          "to": "wallet",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Wallet"
+    },
+    {
+      "id": "wallet-connected",
+      "name": "38 / Wallet — подключён",
+      "title": "ASIQ / TON",
+      "sub": "Демонстрационный подключённый кошелёк.",
+      "items": [
+        {
+          "type": "wallet",
+          "status": "connected"
+        },
+        {
+          "type": "button",
+          "label": "Обновить баланс",
+          "to": "wallet-loading",
+          "style": "secondary"
+        },
+        {
+          "type": "button",
+          "label": "Обмен ASIQ / информация",
+          "to": "swap-info",
+          "style": "secondary"
+        },
+        {
+          "type": "button",
+          "label": "Отключить демокошелёк",
+          "to": "wallet-disconnect",
+          "style": "ghost"
+        }
+      ],
+      "nav": "Wallet"
+    },
+    {
+      "id": "wallet-loading",
+      "name": "39 / Wallet — загрузка",
+      "title": "Обновляем баланс",
+      "sub": "Проверяем ASIQ в TON-кошельке.",
+      "items": [
+        {
+          "type": "wallet",
+          "status": "loading"
+        },
+        {
+          "type": "notice",
+          "title": "Загрузка",
+          "text": "Пока баланс не получен, показываем «—», а не ноль.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Показать демобаланс",
+          "to": "wallet-connected",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Показать ошибку",
+          "to": "wallet-error",
+          "style": "ghost"
+        }
+      ],
+      "nav": "Wallet"
+    },
+    {
+      "id": "wallet-error",
+      "name": "40 / Wallet — ошибка",
+      "title": "Не удалось\nполучить баланс",
+      "sub": "Подключение может оставаться активным.",
+      "items": [
+        {
+          "type": "wallet",
+          "status": "error"
+        },
+        {
+          "type": "notice",
+          "title": "Не выдаём ошибку за нулевой баланс",
+          "text": "Проверь соединение и повтори обновление. Это не подтверждение отсутствия ASIQ.",
+          "status": "error"
+        },
+        {
+          "type": "button",
+          "label": "Повторить",
+          "to": "wallet-loading",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Открыть Wallet",
+          "to": "wallet-connected",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Wallet"
+    },
+    {
+      "id": "wallet-disconnect",
+      "name": "41 / Wallet — отключение",
+      "title": "Отключить кошелёк?",
+      "sub": "Баланс и активы в кошельке не удаляются.",
+      "items": [
+        {
+          "type": "button",
+          "label": "Отключить демоподключение",
+          "to": "@wallet-disconnect",
+          "style": "danger"
+        },
+        {
+          "type": "button",
+          "label": "Оставить подключённым",
+          "to": "wallet-connected",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Wallet"
+    },
+    {
+      "id": "swap-info",
+      "name": "42 / Информация об обмене",
+      "title": "ASIQ / STON.fi",
+      "sub": "Внешний сервис обмена.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Переход на внешний сервис",
+          "text": "В действующем MVP есть ссылка на STON.fi. Реальный обмен проходит в отдельном интерфейсе с подтверждением пользователя.",
+          "status": "info"
+        },
+        {
+          "type": "body",
+          "text": "В этом дизайн-прототипе нет покупки, продажи, цен или обещания доходности."
+        },
+        {
+          "type": "button",
+          "label": "Вернуться в Wallet",
+          "to": "@wallet-home",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Wallet"
+    },
+    {
+      "id": "community",
+      "name": "43 / Community",
+      "title": "На связи\nс ASIQPAI",
+      "sub": "Официальные страницы и сообщество.",
+      "items": [
+        {
+          "type": "community-links"
+        },
+        {
+          "type": "notice",
+          "title": "Музыкальное сообщество",
+          "text": "В текущем MVP этот раздел собирает официальные ссылки. Лента публикаций не добавляется без отдельного согласования.",
+          "status": "info"
+        }
+      ],
+      "nav": "Community"
+    },
+    {
+      "id": "catalog-loading",
+      "name": "44 / Каталог — загрузка",
+      "title": "Загружаем музыку",
+      "sub": "Проверяем доступность каталога.",
+      "items": [
+        {
+          "type": "skeleton"
+        },
+        {
+          "type": "skeleton"
+        },
+        {
+          "type": "notice",
+          "title": "Ожидание каталога",
+          "text": "Запись недоступна, пока не выбран и не загружен бит.",
+          "status": "info"
+        },
+        {
+          "type": "button",
+          "label": "Показать каталог демо",
+          "to": "instrumentals",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Library"
+    },
+    {
+      "id": "catalog-error",
+      "name": "45 / Каталог — ошибка",
+      "title": "Музыка временно\nнедоступна",
+      "sub": "Выбор бита не завершён.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Не удалось получить каталог",
+          "text": "Не смешиваем ошибку загрузки с пустым каталогом. Повтори запрос.",
+          "status": "error"
+        },
+        {
+          "type": "button",
+          "label": "Повторить загрузку",
+          "to": "catalog-loading",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к Studio",
+          "to": "studio",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Library"
+    },
+    {
+      "id": "sample-empty",
+      "name": "46 / Сэмплы — пусто",
+      "title": "Здесь появятся\nтвои мелодии",
+      "sub": "Создай первый вариант в AI Samples.",
+      "items": [
+        {
+          "type": "wave"
+        },
+        {
+          "type": "button",
+          "label": "Настроить сэмпл",
+          "to": "samples",
+          "style": "primary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "sample-error",
+      "name": "47 / Сэмплы — ошибка",
+      "title": "Не получилось\nсоздать сэмпл",
+      "sub": "Описание и параметры сохранены.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Сервис не вернул результат",
+          "text": "Проверь доступность и квоту. Не запускай повторный платный запрос автоматически.",
+          "status": "error"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к форме",
+          "to": "samples",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Повторить демогенерацию",
+          "to": "sample-wait",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "sample-quota",
+      "name": "48 / Лимит генерации",
+      "title": "Лимит исчерпан",
+      "sub": "Доступность генераций определяется сервисом.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Нет доступных генераций",
+          "text": "Покажи реальную квоту и правила её восстановления после ответа сервера. Без выдуманной цены.",
+          "status": "error"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к форме",
+          "to": "samples",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "mic-denied",
+      "name": "49 / Микрофон — отказ",
+      "title": "Нужен доступ\nк микрофону",
+      "sub": "Запись не началась.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Разрешение не получено",
+          "text": "Разреши микрофон в настройках Telegram или устройства и попробуй снова.",
+          "status": "error"
+        },
+        {
+          "type": "button",
+          "label": "Повторить",
+          "to": "permission",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Загрузить вокал",
+          "to": "upload",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "no-mid",
+      "name": "50 / Нет основного вокала",
+      "title": "Сначала основной голос",
+      "sub": "Для вокального микса добавь MID.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Нет дорожки MID",
+          "text": "Запиши или загрузи основной вокал, затем собери микс.",
+          "status": "error"
+        },
+        {
+          "type": "button",
+          "label": "Записать MID",
+          "to": "@select-mid",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Загрузить файл",
+          "to": "upload",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "process-error",
+      "name": "51 / Ошибка сборки",
+      "title": "Попробуем ещё раз",
+      "sub": "Дорожки остались в текущей сессии.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Микс не собран",
+          "text": "Вернись к настройкам или повтори обработку. При закрытии исходники могут быть потеряны.",
+          "status": "error"
+        },
+        {
+          "type": "button",
+          "label": "Повторить демосборку",
+          "to": "processing",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Настройки",
+          "to": "process",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "offline",
+      "name": "52 / Нет соединения",
+      "title": "Связь пропала",
+      "sub": "Сетевые функции временно недоступны.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Проверь соединение",
+          "text": "Не закрывай текущую вокальную сессию до экспорта WAV.",
+          "status": "error"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к Studio",
+          "to": "studio",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "upload-error",
+      "name": "53 / Файл не принят",
+      "title": "Не удалось\nдобавить вокал",
+      "sub": "Текущая дорожка не заменена.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Проверь файл",
+          "text": "Размер — до 25 МБ. Файл должен декодироваться как поддерживаемое аудио.",
+          "status": "error"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться к загрузке",
+          "to": "upload",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "label": "Записать голос",
+          "to": "permission",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "ai-unavailable",
+      "name": "54 / AI CLEAN недоступен",
+      "title": "AI CLEAN\nпока недоступен",
+      "sub": "Остальные эффекты остаются доступными.",
+      "items": [
+        {
+          "type": "notice",
+          "title": "Сервис не готов",
+          "text": "Не включай неработающий AI-переключатель. Покажи причину и повторную проверку.",
+          "status": "error"
+        },
+        {
+          "type": "button",
+          "label": "Проверить снова — демо",
+          "to": "process",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Studio"
+    },
+    {
+      "id": "external-link",
+      "name": "55 / Внешняя ссылка",
+      "title": "Открыть сообщество?",
+      "sub": "Переход за пределы Mini App.",
+      "items": [
+        {
+          "type": "external-preview"
+        },
+        {
+          "type": "button",
+          "label": "Вернуться в Community",
+          "to": "community",
+          "style": "secondary"
+        }
+      ],
+      "nav": "Community"
+    }
+  ]
+}
